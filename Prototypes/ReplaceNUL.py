@@ -1,0 +1,6 @@
+originalfile = open(r'C:\Users\edoch\Downloads\Test1\cleanup\MOT_HR_PAYMENT_HISTORY_20210902_111500.csv', 'rb')
+data = originalfile.read()
+originalfile.close()
+updatedfile = open(r'C:\Users\edoch\Downloads\Test1\cleanup\MOT_HR_PAYMENT_HISTORY_20210902_111500_NoNUL.csv', 'wb')
+updatedfile.write(data.replace(b'\x00', b''))
+updatedfile.close()
