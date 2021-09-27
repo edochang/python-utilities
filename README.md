@@ -29,5 +29,5 @@ Call Example:
 ## References
 The creation of COTI was inspired from https://gist.github.com/jrivero/1085501.  The general logic was inspired from here, however COTI was designed to be extendable for additional CSV manipulation operations.
 
-# <a name='prototyeps'>2. Prototypes</a>
-Random scripts that was written on the fly to achieve specific tasks.  These functions have not been incorporated to the overall utilities listed in [python-utilites](#python-utilites).
+# <a name='prototypes'>2. Prototypes</a>
+Random scripts that was written on the fly to achieve specific tasks.  These functions have not been incorporated to the overall utilities listed in [python-utilites](#python-utilities).
