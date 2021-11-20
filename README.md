@@ -17,13 +17,13 @@ Supported operations:
 ## General Instructions
 To use the this script, navigate to the directory that contains the COTI.py file and call the following command for additional instructions.
 
+Powershell Example
     python ./COTI.py --h
 
 This will explain to you how the scripts work and what arguments you can add to this script call.
 
 ## Chunk Operation Instructions
-Call Example:
-
+Powershell Call Example:
     python ./COTI.py -file="C:\Users\username\working_directory\file name.csv" -operation='chunk' -chunksize=5000
 
 ## References
